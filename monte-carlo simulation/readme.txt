@@ -1,1 +1,1 @@
-
+This folder contains MATLAB programs for simulating evolution. The result of their work is a .mat file containing an array of binary matrices, divided into subarrays depending on the simulation run and ordered by time.
