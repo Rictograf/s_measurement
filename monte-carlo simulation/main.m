@@ -30,11 +30,11 @@ global s0 N tf f0 run2 ac bc tsec1 tsec2 tsec3 l rndmf0 var_t_f0 delay_freq dela
 
 
 generate=true;
-rndmf0=0; %1 - включить случайное распределение f0 по сайтам, 0 - отключить
-var_t_f0=0; %1 - включить отложенные последовательности, 0 - отключить
-delay_freq=0.1; %какая часть популяции будет позже вступать в эволюцию
-delay_time=6; % время после которого встраиваются новые геномы
-population_num = 1; %количество взаимодействующих популяций
+rndmf0=0; % 1 - enable random distribution of f0 across sites, 0 - disable
+var_t_f0=0; % 1 - enable delayed sequences, 0 - disable
+delay_freq=0.1; % fraction of the population that will enter evolution later
+delay_time=6; % time after which new genomes are integrated
+population_num = 1; % number of interacting populations
 %run=5;
 %r=0;
 %L=40;
