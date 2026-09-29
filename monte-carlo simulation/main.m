@@ -73,7 +73,7 @@ muL = 0.07;
 mu=muL/L;
 
 for i =1:run
-[dat{i},s,~,~,~,~,~]=recomb_2022_test_2(r,s0,ac,bc,M,L,N,tf,f0,l,i,run2,mu,H,B); 
+[dat{i},s,~,~,~,~,~]=recomb_2026(r,s0,ac,bc,M,L,N,tf,f0,l,i,run2,mu,H,B); 
 Data{i}=dat{i};
 end
 name= sprintf("L%drun%dB%dH%df005_2.mat",L,run);
@@ -87,7 +87,7 @@ for N=[500,1000,2000]
     for muL=[0.05,0.07,0.09]
         for i=1:run
         mu=muL/L;
-        [dat{i},s,~,~,~,~,~]=recomb_2022_test(r,s0,ac,bc,M,L,N,tf,f0,l,i,run2,mu); 
+        [dat{i},s,~,~,~,~,~]=recomb_2026(r,s0,ac,bc,M,L,N,tf,f0,l,i,run2,mu); 
         Data{i}=dat{i};
         end
         muu = muL*100;
@@ -108,7 +108,7 @@ H=1.0;
             for i1 =1:run
                 
                 %H=Hi/100;
-                [dat{i1},s,~,~,~,~,~]=recomb_2022_test_2(r,s0,ac,bc,M,L,N,tf,f0,l,i1,run2,mu,H,B); 
+                [dat{i1},s,~,~,~,~,~]=recomb_2026(r,s0,ac,bc,M,L,N,tf,f0,l,i1,run2,mu,H,B); 
                 Data{i1}=dat{i1};
                   
             end
