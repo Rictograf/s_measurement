@@ -1,5 +1,5 @@
 %Made with MATLAB2022a
-function [genome_r, sdist, avf, histo1,histo2,avw,fsi] = recomb_2022_test(r,s0,ac,bc,M,L,N,tf,f0,l,run,run2,mu,H,B)
+function [genome_r, sdist, avf, histo1,histo2,avw,fsi] = recomb_2026(r,s0,ac,bc,M,L,N,tf,f0,l,run,run2,mu,H,B)
 
 % file locations 
 homedir = '~/Desktop/Recombination/figs';
